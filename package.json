@@ -1,6 +1,6 @@
 {
-  "homepage": "https://prasanth175.github.io/online-books/",
   "name": "online-books",
+  "homepage": "https://prasanth175.github.io/books/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

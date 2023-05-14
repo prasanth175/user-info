@@ -7,8 +7,8 @@ class Header extends Component {
     return (
             <nav className='navbar'>
                 <ul className='nav-list'>
-                    <Link className='nav-link' to='/online-books/'><li className='nav-item'>Books</li></Link>
-                    <Link className='nav-link' to='/online-books/book-form'><li className='nav-item'>Book Form</li></Link>
+                    <Link className='nav-link' to='/'><li className='nav-item'>Books</li></Link>
+                    <Link className='nav-link' to='/book-form'><li className='nav-item'>Book Form</li></Link>
                 </ul>
             </nav>
     )

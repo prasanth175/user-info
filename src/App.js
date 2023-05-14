@@ -13,9 +13,9 @@ class App extends Component {
     return (
 
           <Switch>
-        <Route exact path='/online-books/' component={Books} />
-        <Route exact path='/online-books/book-form'  component={BookForm} />
-        <Route exact path='/online-books/books/:id'  component={BookDetails} />
+        <Route exact path='/' component={Books} />
+        <Route exact path='/book-form'  component={BookForm} />
+        <Route exact path='/books/:id'  component={BookDetails} />
         <Route component={NotFound} />
         </Switch>
     )
