@@ -6,7 +6,7 @@ const BookCard = props => {
   const {file, title, bookId, author} = item
 
   return (
-    <Link className="book-item-link" to={`/books/${bookId}`}>
+    <Link className="book-item-link" to={`/online-books/books/${bookId}`}>
       <li className="books-item">
         <img className="books-img" src={file} alt={title} />
         <h1 className="books-title">{title}</h1>
