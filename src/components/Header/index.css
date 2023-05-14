@@ -1,0 +1,24 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(141, 198, 212);
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-item{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}

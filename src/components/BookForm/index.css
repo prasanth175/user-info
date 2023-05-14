@@ -1,0 +1,108 @@
+.add-book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    font-family: 'Roboto';
+  }
+  
+  .add-book-inner-container {
+    width: 70%;
+  }
+  
+  .add-book-heading {
+    align-self: flex-start;
+    border-bottom: 1px solid rgb(134, 127, 127);
+    padding-bottom: 20px;
+    color: grey;
+    font-family: 'Bree Serif';
+  }
+  
+  /*----------------------Form Container-----------------------------*/
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .add-label {
+    font-size: 13px;
+    font-weight: 410;
+    margin-bottom: 7px;
+    color: rgb(102, 97, 97);
+  }
+  
+  .add-star-txt {
+    color: rgb(219, 19, 19);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .add-input {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(205, 197, 197);
+    margin-bottom: 18px;
+  }
+  
+  .add-input:focus {
+    border: 1px solid rgb(189, 225, 246);
+    outline: 3px ridge rgb(124, 199, 243);
+  }
+  
+  .add-btn-container {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .add-submit-btn {
+    background-color: rgb(28, 28, 200);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+  }
+  
+  .add-clear-btn {
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .success-txt {
+    background-color: rgb(211, 250, 211);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 450;
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .my-alert{
+    color: red;
+  }
+  
+  @media (max-width: 410px) {
+    .add-book-inner-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .add-book-container {
+      width: 100%;
+    }
+  
+    .add-book-form {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
