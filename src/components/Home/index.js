@@ -26,17 +26,18 @@ class Home extends Component {
   }
 
   getUserList = async () => {
-    const url = 'http://localhost:3006/users/'
+    const url = 'https://gorest.co.in/public-api/users'
     const response = await fetch(url)
     const data = await response.json()
-    if (data.dbRes.length === 0) {
+    console.log(data.data)
+    if (data.data.length === 0) {
       this.setState({
         status: statusCheck.isFailure,
       })
     } else {
       this.setState({
         status: statusCheck.isSuccess,
-        usersList: data.dbRes,
+        usersList: data.data,
       })
     }
   }
