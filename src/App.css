@@ -37,30 +37,28 @@
   }
 }
 
-
-
-li{
+li {
   list-style-type: none;
 }
 
-ul{
+ul {
   padding-left: 0px;
 }
 
-button{
+button {
   background-color: transparent;
   border-width: 0px;
   cursor: pointer;
 }
 
-select{
+select {
   cursor: pointer;
 }
 
-input:focus{
+input:focus {
   outline: none;
 }
 
-body{
+body {
   margin: 0px;
 }

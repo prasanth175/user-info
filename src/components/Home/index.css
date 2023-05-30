@@ -1,0 +1,31 @@
+.home-container {
+    margin: 30px;
+  }
+  
+  .user-heading {
+    color: grey;
+    font-family: 'Bree Serif';
+  }
+  
+  .no-info {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 93, 74);
+  }
+  
+  /*----------Empty Info Container------------*/
+  
+  .not-found-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .main-container {
+      height: 100%;
+    }
+  }
+  

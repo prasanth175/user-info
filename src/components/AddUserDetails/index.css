@@ -1,4 +1,4 @@
-.add-book-container {
+.add-user-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     font-family: 'Roboto';
   }
   
-  .add-book-inner-container {
+  .add-user-inner-container {
     width: 70%;
   }
   
@@ -20,10 +20,10 @@
   
   /*----------------------Form Container-----------------------------*/
   
-  .add-book-form {
+  .add-user-form {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(231, 229, 229);
+    /* border: 1px solid rgb(231, 229, 229); */
     border-radius: 10px;
     padding: 40px;
     margin-bottom: 30px;
@@ -54,53 +54,57 @@
     outline: 3px ridge rgb(124, 199, 243);
   }
   
-  .add-btn-container {
-    align-self: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
   .add-submit-btn {
-    background-color: rgb(28, 28, 200);
+    background-color: rgb(15, 15, 172);
     color: white;
     border-radius: 5px;
-    padding: 8px 15px;
+    padding: 12px 15px;
+    font-family: 'Roboto';
+    font-weight: 450;
   }
   
-  .add-clear-btn {
-    background-color: red;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin-left: 20px;
+  /*---------------error text---------*/
+  
+  .add-error-txt {
+    color: red;
+    font-family: 'Roboto';
+    font-weight: 15px;
+    text-align: center;
   }
   
   .success-txt {
-    background-color: rgb(211, 250, 211);
+    background-color: rgb(140, 253, 140);
     border-radius: 3px;
     padding: 20px;
-    text-align: center;
-    font-weight: 450;
-    font-size: 20px;
-    color: rgb(65, 65, 65);
-    font-family:'Courier New', Courier, monospace;
+    margin-top: 30px;
   }
-
-  .my-alert{
-    color: red;
+  
+  .failure-txt {
+    background-color: rgb(248, 187, 187);
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .msg-txt {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 450;
+    font-size: 15px;
+    text-align: center;
   }
   
   @media (max-width: 410px) {
-    .add-book-inner-container {
+    .add-user-inner-container {
       width: 100%;
       padding: 10px;
     }
   
-    .add-book-container {
+    .add-user-container {
       width: 100%;
     }
   
-    .add-book-form {
+    .add-user-form {
       width: 100%;
       padding: 10px;
     }

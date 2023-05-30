@@ -1,0 +1,56 @@
+.each-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    padding: 7px;
+    margin-bottom: 20px;
+  }
+  
+  .each-name {
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(21, 93, 110);
+  }
+  
+  .edit-btn {
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 450;
+    background-color: rgb(141, 198, 212);
+    margin-right: 20px;
+  }
+  
+  .edit-btn:hover {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+  }
+  
+  .delete-btn {
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 450;
+    background-color: rgb(245, 137, 137);
+  }
+  
+  .delete-btn:hover {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+  }
+  
+  @media (max-width: 450px) {
+    .each-user {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
